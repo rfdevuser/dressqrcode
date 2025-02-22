@@ -2,8 +2,8 @@
 import { useEffect, useState } from 'react';
 
 
-export default function page() {
-  const [temp, setTemp] = useState("");
+export default function Page() {
+  
   const [word, setWord] = useState("");
   const [size, setSize] = useState(400);
   const [bgColor, setBgColor] = useState("ffffff");
