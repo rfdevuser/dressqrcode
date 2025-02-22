@@ -21,9 +21,9 @@ export default function Page() {
   // changes the input
   useEffect(() => {
     
-    word ? setQrCode
+     setQrCode
  (`http://api.qrserver.com/v1/create-qr-code/?data=${word}!&size=${size}x${size}&bgcolor=${bgColor}`)
-  :''}, [word, size, bgColor]);
+  }, [word, size, bgColor]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
