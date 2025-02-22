@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useRef, useState } from "react";
-import "/src/app/QRScanner/QrStyles.css";
+import "./src/app/QRScanner/QrStyles.css";
 import QrScanner from "qr-scanner";
 
 const QrReader = () => {
